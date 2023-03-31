@@ -15,4 +15,9 @@ public class Herring extends  DonyFish {
     public String feed() {
         return "мелкой рыбой, моллюсками и креветками";
     }
+
+    @Override
+    public int speadSwim() {
+        return 13;
+    }
 }
