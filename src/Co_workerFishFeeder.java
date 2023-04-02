@@ -7,7 +7,7 @@ public class Co_workerFishFeeder extends Co_worker implements SwimAble{
 
     @Override
     public String toString() {
-        return String.format("%sСкорость плава: %d\n",super.toString(), speadSwim());
+        return String.format("%sСкорость плава: %d км/ч\n",super.toString(), speadSwim());
     }
 
     @Override
